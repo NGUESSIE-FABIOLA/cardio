@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "donnees.c"
+#include "action.c"
 
 int main(void){
 
@@ -16,26 +17,44 @@ int main(void){
 	{
 	case 1:
 	printf("w\n");
+	printf("\n------------------------------------------------------------\n");
+	printf("voulez vous continuer ? \n 1 pour continuer :\n 0 pour quitter : ");
+	scanf("%d", &choix);
 	break;
 
 	case 2:
 	liste();
+	printf("\n------------------------------------------------------------\n");
+	printf("voulez vous continuer ? \n 1 pour continuer :\n 0 pour quitter : ");
+	scanf("%d", &choix);
 	break;
 
 	case 3:
-	printf("3333\n");
+	liste_temps();
+	printf("\n------------------------------------------------------------\n");
+	printf("voulez vous continuer ? \n 1 pour continuer :\n 0 pour quitter : ");
+	scanf("%d", &choix);
 	break;
 
 	case 4:
 	printf("444444");
+	printf("\n------------------------------------------------------------\n");
+	printf("voulez vous continuer ? \n 1 pour continuer :\n 0 pour quitter : ");
+	scanf("%d", &choix);
 	break;
 
 	case 5:
 	printf("555555");
+	printf("\n------------------------------------------------------------\n");
+	printf("voulez vous continuer ? \n 1 pour continuer :\n 0 pour quitter : ");
+	scanf("%d", &choix);
 	break;
 
 	case 6:
 	printf("66666666");
+	printf("\n------------------------------------------------------------\n");
+	printf("voulez vous continuer ? \n 1 pour continuer :\n 0 pour quitter : ");
+	scanf("%d", &choix);
 	break;
 	}
 
