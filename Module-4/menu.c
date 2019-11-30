@@ -12,49 +12,34 @@ int main(void){
 
 	scanf("%d", &choix);
 
-
-	signed char resultat[200];
-	FILE *battement = fopen("battement.csv","r");
-
-
-
 	switch(choix)
 	{
 	case 1:
-	printf("w");
+	printf("w\n");
 	break;
 
 	case 2:
-	printf("wwwwww");
+	liste();
 	break;
 
 	case 3:
-
-	if(battement == NULL){
-		exit(1);
-	}
-
-	fgets(resultat, 199, battement);
-	printf("%s\n", resultat);
-
-
+	printf("3333\n");
 	break;
 
 	case 4:
-	printf("wwwwww");
+	printf("444444");
 	break;
 
 	case 5:
-	printf("wwwwww");
+	printf("555555");
 	break;
 
 	case 6:
-	printf("wwwwww");
+	printf("66666666");
 	break;
 	}
 
-	fclose(battement);
-}while(choix == 0);
+}while(choix != 0);
 
 
 return 0;
