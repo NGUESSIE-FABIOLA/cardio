@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1575308225 source:c:\users\pret a l'emploi\documents\github\fre\menu.c
+	<stdio.h>
+	<stdlib.h>
+
+1542566560 source:c:\users\pret a l'emploi\documents\github\fre\scan.c
+	<stdio.h>
+	<stdlib.h>
+
+1575284929 source:c:\users\pret a l'emploi\documents\github\fre\main.c
+	<stdio.h>
+	<stdlib.h>
+	"menu.h"
+	"scan.h"
+	"module_coeur.h"
+
+1542371972 c:\users\pret a l'emploi\documents\github\fre\menu.h
+
+1542372352 c:\users\pret a l'emploi\documents\github\fre\scan.h
+
+1542370298 c:\users\pret a l'emploi\documents\github\fre\module_coeur.h
+
