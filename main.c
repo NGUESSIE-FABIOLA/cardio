@@ -1,12 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+//#include "menu.c"
 
-///////////////////////////
-/// Programme Principal ///
-///////////////////////////
+/*int main(){
 
-int main()
-{
-    printf("Hello world!\n");
-    return 0;
-}
+         menu();
+
+            return 0;
+}*/
